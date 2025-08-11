@@ -15,7 +15,8 @@ After installing LibTorch, make sure its path is correctly set in `CMakeLists.tx
 1. **Configure LibTorch Path**  
    Edit `CMakeLists.txt` to set the correct **LibTorch** path.
 2. **Set UFEN Weights Path**  
-   Update the code with the correct location of the `ufen.pt` weight file.
+   Update the code with the correct path to the `ufen.pt` weight file in:
+   `UFEN-SLAM/UFEN_SLAM/src/ORBextractor.cc`
 3. **Build the Project**  
    Follow the same build instructions as in [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3).
 4. **Set the Parameters**  
